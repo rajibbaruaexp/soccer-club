@@ -1,0 +1,454 @@
+/*===========google font emmbed============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*==============
+    common css
+===================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*===========================
+       header area css
+============================ */
+header {
+  position: absolute;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.nav-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-area ul li {
+  display: inline-block;
+}
+
+.nav-area ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 18px;
+  display: block;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+header nav {
+  width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-area ul li a:hover {
+  color: #e02c6d;
+}
+
+.login-area a {
+  background: #e02c6d;
+  color: #fff;
+  display: block;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+
+.login-area a i {
+  margin-right: 10px;
+}
+.mobile-menu-icon a {
+  color: #fff;
+  font-size: 28px;
+  display: none;
+}
+
+/*===========================
+    hero banner area css
+==============================*/
+.hero-area {
+  background: #2d25a0;
+}
+
+.hero-area-wrapper,
+.highlights-area-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 153px;
+  padding-bottom: 86px;
+}
+
+.hero-title-area h1 {
+  font-size: 64px;
+  color: #fff;
+}
+
+.hero-title-area a,
+.highlights-title-area a {
+  background: #e02c6d;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px 10px 24px;
+  display: inline-block;
+  width: 115px;
+  margin-top: 27px;
+  transition: 0.3s;
+}
+
+.hero-title-area a i,
+.highlights-title-area a i {
+  transition: 0.3s;
+}
+.hero-title-area a:hover i,
+.highlights-title-area a:hover i {
+  margin-left: 10px;
+}
+
+.hero-title-area a:hover,
+.highlights-title-area a:hover {
+  box-shadow: 0 0 5px 5px #333;
+}
+
+.hero-image-area img,
+.highlights-image-area img {
+  width: 556px;
+}
+
+.hero-image-area img,
+.highlights-image-area img {
+  position: relative;
+  transition: 0.3s;
+}
+
+.hero-image-area img:hover {
+  transform: scale(1.1);
+}
+
+/*======================================
+          players info css
+========================================*/
+.players-info-wrapper {
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  margin: 0 auto;
+  padding: 60px 0;
+  column-gap: 30px;
+}
+.single-player-info {
+  width: 330px;
+  min-height: 474px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.single-player-info div {
+  padding: 15px;
+}
+.single-player-desc {
+  padding-top: 0 !important;
+}
+
+.player-image {
+  padding-bottom: 0px !important;
+}
+.single-player-info img {
+  width: 300px;
+  transition: 0.3s;
+}
+.single-player-info:hover img {
+  transform: scale(1.04);
+}
+.single-player-info:hover {
+  box-shadow: 0px 0px 15px 0px #ff9f9f;
+}
+.single-player-info h2 {
+  font-size: 28px;
+  color: #18191f;
+  padding: 10px 0;
+}
+.single-player-info p,
+.highlights-title-area p {
+  color: #6c6c6c;
+}
+
+/*===================================
+  highlights-area-wrapper css
+  ====================================*/
+.highlights-title-area {
+  width: 469px;
+  padding-bottom: 0;
+}
+.highlights-title-area h1 {
+  font-size: 48px;
+  color: #0a0826;
+  margin-bottom: 8px;
+}
+.highlights-title-area a:hover {
+  box-shadow: 0 0 5px 5px #ddd;
+}
+
+.highlights-image-area img:hover {
+  transform: scale(1.05);
+}
+
+/*================================
+        blog area css
+===================================*/
+.blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 0 auto;
+}
+.section-title {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.section-title p {
+  font-size: 14px;
+  color: #ddd;
+}
+.blog-thumb img {
+  width: 300px;
+}
+
+.single-blog {
+  width: 330px;
+  box-shadow: 0 0 5px 0 #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.blog-info {
+  padding: 15px;
+}
+
+.blog-thumb {
+  padding: 15px;
+  padding-bottom: 0;
+}
+p.blog-date {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+h3.blog-title {
+  color: #e02c6d;
+  text-align: center;
+}
+
+p.blog-date span {
+  font-weight: 700;
+}
+
+.blog-area {
+  background: #2d25a0;
+  padding: 80px 0;
+  margin-top: 80px;
+}
+
+/*==============================
+      location css
+===================================*/
+.location-area iframe {
+  width: 100%;
+  height: 300px;
+  border-bottom: 5px solid #333 !important;
+}
+
+/*============================
+        footer area css
+================================*/
+
+footer.footer-area {
+  margin-top: 158px;
+  margin-bottom: 63px;
+}
+.footer-logo {
+  width: 483px;
+  margin: 0 auto;
+}
+.footer-logo img {
+  width: 483px;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-icons a {
+  background: #e7e7e8;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.footer-social-icons i {
+  color: #969bab;
+  font-size: 16px;
+  transition: 0.6s;
+}
+.footer-social-icons a:hover i {
+  color: #e02c6d;
+  transform: rotate(360deg);
+}
+
+.copyright-area {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*--------------------------------
+       Mobile Layout: 320px.
+---------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  /* header css  */
+  nav ul {
+    display: none;
+  }
+  header nav {
+    width: 90%;
+  }
+  .mobile-menu-icon a {
+    display: block;
+  }
+  /* hero area css */
+
+  section {
+    padding: 0 30px;
+  }
+  .hero-area-wrapper,
+  .highlights-area-wrapper {
+    width: auto;
+  }
+  .hero-area-wrapper {
+    display: inherit;
+  }
+
+  .hero-title-area h1 {
+    font-size: 36px;
+  }
+
+  .hero-image-area {
+    margin-top: 35px;
+  }
+  .hero-image-area img {
+    width: 330px;
+  }
+
+  /* players info css */
+  .players-info-wrapper {
+    display: inherit;
+  }
+  .players-info-area {
+    padding: 5px;
+  }
+
+  .players-info-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+  .players-info-wrapper {
+    padding-top: 25px;
+  }
+
+  .single-player-info {
+    margin-bottom: 30px;
+  }
+  /* highlight css area  */
+  .highlights-image-area img {
+    width: 100%;
+  }
+  .highlights-area-wrapper {
+    padding-top: 0;
+  }
+  .highlights-title-area h1 {
+    font-size: 30px;
+  }
+  .blog-wrapper {
+    display: inherit;
+  }
+
+  .single-blog {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .blog-wrapper {
+    width: auto;
+  }
+
+  .section-title {
+    width: auto;
+    padding: 10px;
+  }
+
+  .blog-area {
+    padding: 30px 0;
+  }
+
+  .highlights-area-wrapper {
+    display: inherit;
+  }
+
+  .highlights-title-area {
+    width: auto;
+  }
+
+  .highlights-image-area {
+    margin-top: 30px;
+  }
+  /* blog css */
+  .blog-wrapper {
+    display: inherit;
+  }
+
+  .single-blog {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .blog-wrapper {
+    width: auto;
+  }
+
+  .section-title {
+    width: auto;
+    padding: 10px;
+  }
+
+  .blog-area {
+    padding: 30px 0;
+  }
+
+  /* footer css  */
+  .footer-logo {
+    width: auto;
+  }
+
+  .footer-logo img {
+    width: 330px;
+  }
+}
